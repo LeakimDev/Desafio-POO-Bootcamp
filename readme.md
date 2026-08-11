@@ -7,7 +7,6 @@
 ![Java](https://img.shields.io/badge/Java-17+-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![POO](https://img.shields.io/badge/paradigma-POO-6A5ACD?style=for-the-badge)
 ![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow?style=for-the-badge)
-![License](https://img.shields.io/badge/licença-MIT-blue?style=for-the-badge)
 
 </div>
 
