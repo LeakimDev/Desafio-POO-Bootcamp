@@ -1,13 +1,30 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-void main() {
-    //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-    // to see how IntelliJ IDEA suggests fixing it.
-    IO.println(String.format("Hello and welcome!"));
+import br.com.dio.desafio.dominio.Curso;
+import br.com.dio.desafio.dominio.Mentoria;
 
-    for (int i = 1; i <= 5; i++) {
-        //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-        // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-        IO.println("i = " + i);
+import java.time.LocalDate;
+
+public class Main{
+    static void main(String[] args) {
+        Curso informatica = new Curso();
+        Curso atendente = new Curso();
+        Mentoria mentoria = new Mentoria();
+
+        informatica.setTitulo("Curso Informatica");
+        informatica.setDescricao("Informatica básica, Windows, Word e Excel");
+        informatica.setCargaHoraria(190);
+
+        atendente.setTitulo("Curso de Atendente de Farmacia");
+        atendente.setDescricao("Atendimento ao cliente e Operação de Caixa");
+        atendente.setCargaHoraria(180);
+
+        mentoria.setTitulo("Mentoria de Informatica");
+        mentoria.setDescricao("Ajuda em apps");
+        mentoria.setData(LocalDate.now());
+
+
+
+        System.out.println(informatica);
+        System.out.println(atendente);
+        System.out.println(mentoria);
     }
 }
